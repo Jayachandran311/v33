@@ -1,0 +1,92 @@
+.container{
+    background: linear-gradient(rgba(255, 0, 0, 0.4),rgba(0, 0, 0, 0.432)),url(images/4.jpg);
+    width: 98.5%;
+    height: 120vh;
+    background-position: center;
+    background-size: cover;
+    padding-right: 10px;
+    padding-left: 10px;
+    overflow: hidden;
+}
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    list-style:none;
+}
+.btn{
+    background: #ff0015;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 30px;
+    margin-left: 25px;
+    transition: transform 0.5s;
+}
+.btn:hover{
+    color: black;
+}
+.content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.content h2{
+    font-size: 100px;
+    margin-top: -350px;
+    font-weight: 600;
+}
+.content input{
+    width: 50%;
+    height: 50px;
+    border-radius: 30px;
+    outline: none;
+    margin-bottom: 10px;
+    margin-top: -60px;
+}
+ ::placeholder{
+    font-size: 20px;
+    font-weight: 500;
+}
+.content p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.gallery{
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    margin: 40px 0;
+}
+.image{
+    display: flex;
+    flex-flow: column wrap;
+    max-height: 1800px;
+    margin: auto;
+    width: 100%;
+}
+.block{
+    width: 33.33%;
+    padding: 12px;
+    box-sizing: border-box; 
+}
+.block img{
+    width: 100%;
+    cursor: pointer;
+    transition: transform 1s;
+}
+.block img:hover{
+    transform: scale(1.05);
+}
